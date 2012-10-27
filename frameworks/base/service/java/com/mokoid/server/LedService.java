@@ -24,6 +24,7 @@ import android.os.Bundle;
 import android.os.RemoteException;
 import android.os.IBinder;
 import mokoid.hardware.ILedService;
+import java.lang.String;
 
 /**
  * expose interface to clients.
