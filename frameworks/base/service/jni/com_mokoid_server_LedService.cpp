@@ -30,7 +30,7 @@ mokoid_init(JNIEnv *env, jclass clazz)
     return -1;
 }
 
-static jboolean mokoid_setOn(JNIEnv* env, jobject thiz, jint led, jfloat timeout, jstring str, jint[] arr)
+static jboolean mokoid_setOn(JNIEnv* env, jobject thiz, jint led, jfloat timeout, jstring str, jintArray arr)
 {
     LOGI("LedService JNI: mokoid_setOn() is invoked.");
 
